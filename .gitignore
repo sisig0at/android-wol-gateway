@@ -1,0 +1,22 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.bak
+*.bak-*
+
+# Logs (may contain URLs) and dumps
+logs/
+*.log
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
